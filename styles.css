@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Neptune;
+    src: url(fonts/NeptunCAT.ttf);
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+input, label {
+    display: flex;
+}
+
+input {
+    width: 300px;
+    font-size: 12px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input:focus {
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+button {
+    background: rgb(13, 59, 184);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+}
+.main {
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+.formContent{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(188, 226, 255);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+   
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+    padding: 10px;
+}
+
+.formInfo {
+    padding: 20px;
+}
+
+.group {
+    display: flex;
+    gap: 50px;
+    padding-top: 10px;
+}
+
+.credit{
+    text-align: center;
+}
+
+.createAccount {
+    padding: 10px;
+}
+
+.leftSide {
+    background-image: url(images/shifaz-abdul-hakkim-NZTsrLSgNv0-unsplash.jpg);
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-self: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.lets{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 33%;
+}
+
+
+
+.login {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#message {
+    color: red;
+}
+
+div.logoIMG {
+    display: flex;
+    text-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100%;
+    opacity: .8;
+
+}
+
+div.logoIMG img{
+    max-height: 200px;
+}
+
+div.logoIMG p {
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    font-family: Neptune;
+}
+
+div.credit {
+    margin-top: auto;
+    color: white;
+    font-size: 12px;
+}
+
+div.credit a {
+    color: rgb(25, 188, 217);
+}
+
+
+
+
+
+
+
+
+
+
+
+

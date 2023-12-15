@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src='java.js'></script>
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class='main'>
+        <div class='leftSide'>
+            <div class='logo'>
+                <div class="logoIMG">
+                    <img src='images/divinghelmet.png' alt='Diving Helmet'>
+                    <p>Deep <br> Dive <br> Scuba</p>
+                </div>
+            </div>
+            <div class='credit'>
+                <p>Photo by <a href="https://unsplash.com/@shifaz_a?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Shifaz Abdul Hakkim</a> on <a href="https://unsplash.com/photos/yellow-and-black-fish-in-water-NZTsrLSgNv0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+            </div>
+        </div>
+
+        <div class='formContent'>
+            <div class='formInfo'>
+                <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <i><em></em>now</i> to get started.</h2>
+                <h2>You <i>know</i> you want to.</h2>
+            </div>
+            <div class='form'>
+                <form id="form" action="#" method='get' onsubmit='return verifyPassword()'>
+                    <div class='lets'>
+                        <h2>Let's do this!</h2>
+                    
+                
+                            <div class="group">
+                                <div class="item">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id='firstName' name='firstName'>
+                                </div>
+
+                                <div class="item">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id='lname' name='lname'>
+                                </div>
+                            </div>
+                        
+                            <div class="group">
+                                <div class='item'>
+                                    <label for="email">Email</label>
+                                    <input type="email" id='email' name='email'>
+                                </div>
+
+                                <div class="item">
+                                    <label for="telephone">Phone Number</label>
+                                    <input type="tel" id='telephone' name='telephone'>
+                                </div>
+                            </div>
+                    
+                            <div class="group">
+                                <div class="item">
+                                    <label for="pass1">Password</label>
+                                    <input type="password" id='pass1' name='pass1' onkeyup='verifyPassword()'>
+                                    <div id='message'></div>
+                                </div>
+                                
+                                <div class="item">
+                                    <label for="pass2">Confirm Password</label>
+                                    <input type="password" id='pass2' name='pass2' onkeyup='verifyPassword()'>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+                    <div class='createAccount'>
+                        <button type='submit' value="submit" form='form'>Create Account</button>
+                    </div>
+                    <div class='login'>
+                        <p>Already have an account? <a href="url">Log in</a></p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
