@@ -84,8 +84,7 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     justify-self: center;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: auto;
 }
 
 .lets{
